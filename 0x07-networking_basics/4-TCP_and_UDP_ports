@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-netstat -tpln | awk '/LISTEN/ {print $4,$6,$7}'
+# script that displays TCP and UDP listening ports
+
+netstat -l
