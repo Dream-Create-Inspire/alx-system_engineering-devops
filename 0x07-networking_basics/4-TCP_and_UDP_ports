@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+netstat -tpln | awk '/LISTEN/ {print $4,$6,$7}'
