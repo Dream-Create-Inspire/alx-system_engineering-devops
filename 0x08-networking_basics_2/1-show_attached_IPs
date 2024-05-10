@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Get all IPv4 addresses
+ips=$(hostname -I)
+
+# Display each IP address on a new line
+echo "$ips"
+
